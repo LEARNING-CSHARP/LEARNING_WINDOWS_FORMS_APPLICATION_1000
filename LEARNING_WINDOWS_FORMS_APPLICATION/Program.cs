@@ -11,20 +11,20 @@
 			// **************************************************
 
 			// **************************************************
-			//Form1 frmStartup = new Form1();
-			//Form2 frmStartup = new Form2();
-			MainForm frmStartup = new MainForm();
+			//Form1 startupForm = new Form1();
+			Form2 startupForm = new Form2();
+			//MainForm startupForm = new MainForm();
 
-			System.Windows.Forms.Application.Run(frmStartup);
+			System.Windows.Forms.Application.Run(startupForm);
 
-			if (frmStartup != null)
+			if (startupForm != null)
 			{
-				if (frmStartup.IsDisposed == false)
+				if (startupForm.IsDisposed == false)
 				{
-					frmStartup.Dispose();
+					startupForm.Dispose();
 				}
 
-				frmStartup = null;
+				startupForm = null;
 			}
 			// **************************************************
 		}
