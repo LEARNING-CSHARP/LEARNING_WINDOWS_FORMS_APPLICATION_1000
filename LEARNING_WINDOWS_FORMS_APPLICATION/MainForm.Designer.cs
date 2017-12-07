@@ -156,7 +156,7 @@
 			this.panel4.Controls.Add(this.textBox8);
 			this.panel4.Location = new System.Drawing.Point(153, 12);
 			this.panel4.Name = "panel4";
-			this.panel4.Size = new System.Drawing.Size(135, 174);
+			this.panel4.Size = new System.Drawing.Size(135, 228);
 			this.panel4.TabIndex = 3;
 			// 
 			// textBox12
@@ -301,7 +301,7 @@
 			this.groupBox2.Controls.Add(this.textBox19);
 			this.groupBox2.Location = new System.Drawing.Point(435, 73);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(200, 120);
+			this.groupBox2.Size = new System.Drawing.Size(200, 121);
 			this.groupBox2.TabIndex = 9;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Job";
