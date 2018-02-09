@@ -469,7 +469,5 @@
 		private System.Windows.Forms.TabPage tabPage2;
 		private System.Windows.Forms.TextBox textBox22;
 		private System.Windows.Forms.TabPage tabPage3;
-
-
 	}
 }
