@@ -1,13 +1,13 @@
 ﻿namespace LEARNING_WINDOWS_FORMS_APPLICATION
 {
-	static class Program
+	internal static class Program
 	{
 		static Program()
 		{
 		}
 
 		[System.STAThread]
-		static void Main()
+		internal static void Main()
 		{
 			// **************************************************
 			System.Windows.Forms.Application.EnableVisualStyles();
@@ -15,8 +15,8 @@
 			// **************************************************
 
 			// **************************************************
-			//Form1 startupForm = new Form1();
-			Form2 startupForm = new Form2();
+			Form1 startupForm = new Form1();
+			//Form2 startupForm = new Form2();
 			//MainForm startupForm = new MainForm();
 
 			System.Windows.Forms.Application.Run(startupForm);
