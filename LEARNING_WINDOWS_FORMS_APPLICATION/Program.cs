@@ -15,21 +15,27 @@
 			// **************************************************
 
 			// **************************************************
-			//Form1 startupForm = new Form1();
+			//System.Windows.Forms.Application.Run(new Form1());
+			//System.Windows.Forms.Application.Run(new Form2());
+			System.Windows.Forms.Application.Run(new MainForm());
+			// **************************************************
+
+			// **************************************************
+			////Form1 startupForm = new Form1();
 			//Form2 startupForm = new Form2();
-			MainForm startupForm = new MainForm();
+			////MainForm startupForm = new MainForm();
 
-			System.Windows.Forms.Application.Run(startupForm);
+			//System.Windows.Forms.Application.Run(startupForm);
 
-			if (startupForm != null)
-			{
-				if (startupForm.IsDisposed == false)
-				{
-					startupForm.Dispose();
-				}
+			//if (startupForm != null)
+			//{
+			//	if (startupForm.IsDisposed == false)
+			//	{
+			//		startupForm.Dispose();
+			//	}
 
-				startupForm = null;
-			}
+			//	//startupForm = null;
+			//}
 			// **************************************************
 		}
 	}
